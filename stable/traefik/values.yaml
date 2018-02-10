@@ -13,6 +13,7 @@ memoryLimit: 30Mi
 debug:
   enabled: false
 nodeSelector: {}
+# externalIPs: []
   # key: value
 tolerations: []
 # - key: "key"

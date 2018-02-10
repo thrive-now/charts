@@ -142,6 +142,7 @@ The following tables lists the configurable parameters of the Traefik chart and 
 | `deployment.hostPort.httpEnabled`      | Whether to enable hostPort binding to host for http.          | `false`                                   |
 | `deployment.hostPort.httpsEnabled`     | Whether to enable hostPort binding to host for https.         | `false`                                   |
 | `deployment.hostPort.dashboardEnabled` | Whether to enable hostPort binding to host for dashboard.     | `false`                                   |
+| `externalIPs`                   | List of externalIPs to bind                                             | None                                   |
 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example:
 
